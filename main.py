@@ -1,4 +1,6 @@
 import testodin
+import predkosx
+import math
 #import  math
 #print("hello PYthon Początek")
 ##bawie sie debuggerem
@@ -13,3 +15,8 @@ import testodin
 #print(num)
 #num+=1
 testodin.sayhello()
+droga=int(input("jaką droge przebyłęs? (w km )"))
+czas=int(input("jak długo zajeło ci to ? ( w h)"))
+sr=predkosx.sp(czas,droga)
+print(f"Było by to {sr} km na h  ")
+print(predkosx.pt(2,4))
