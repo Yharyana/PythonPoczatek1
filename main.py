@@ -1,6 +1,10 @@
+import dane
+import ob
 import testodin
 import predkosx
-import math
+import Cacl.ob
+from Cacl.dane import dane
+
 #import  math
 #print("hello PYthon Początek")
 ##bawie sie debuggerem
@@ -19,4 +23,7 @@ droga=int(input("jaką droge przebyłęs? (w km )"))
 czas=int(input("jak długo zajeło ci to ? ( w h)"))
 sr=predkosx.sp(czas,droga)
 print(f"Było by to {sr} km na h  ")
-print(predkosx.pt(2,4))
+print(predkosx.pt(3,4))
+
+pk,op,ok=dane()
+print(f"oto twoja lokata {Cacl.ob.lokata(pk,op,ok)}")
